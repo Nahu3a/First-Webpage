@@ -1,0 +1,191 @@
+body{
+    margin: auto;
+}
+.header , .footer{
+    background-color: #1F2937;
+
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(245, 66, 66);
+
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 120px;
+}
+
+.right-links{
+    display: flex;
+    gap:20px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+.main-items{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-right: 70px;
+    gap: 5px;
+    margin-bottom: 60px;
+}
+
+.main-title{
+    font-size: 48px;
+    font-weight:bolder;
+
+}
+
+.subtitle , .main-title{
+    color: #F9FAF8;
+}
+
+.img-header{
+    max-width: 700px;
+    max-height: 400px;
+    flex: 1;
+}
+.boton-1{
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 9px;
+    border: transparent;
+}
+
+/*SECTION 2 */
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+
+}
+
+h2{
+    text-align: center;
+    display: block;
+    margin-bottom: 50px;
+    
+}
+
+.images-small{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.images-small img{
+    border: 3px  solid #3882F6;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 20px
+}
+
+.images-small li{
+    display: flex;
+    flex-direction: column;
+    max-width: 260px;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cuadro{
+    width: 250px;
+    height: 250px;
+}
+
+/*Section 3 */
+
+.section-3{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 130px;
+    align-items: flex-end;
+}
+
+.author-3{
+    margin-right: 50px;
+    font-weight: 700;
+}
+
+/*Section 4*/
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.cuadro-azul{
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+    width: 1300px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.boton-2{
+    width: 160px;
+    height: 40px;
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    border-width: medium;
+}
+
+.abajo{
+    display:flex;
+    flex-direction: column;
+}
+
+.texto-a{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.footer{
+    display:flex;
+    color: #F9FAF8;
+    justify-content: center;
+    padding: 30px;
+}
